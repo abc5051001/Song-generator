@@ -1,5 +1,5 @@
 # Song-generator
-<h1>program that can generate songs to an output file with random notes, find the note in the input file, change the notes in the input file, and print out the song in dictionary format with the input file.</h1>
+<h>program that can generate songs to an output file with random notes, find the note in the input file, change the notes in the input file, and print out the song in dictionary format with the input file.</h>
 <p><b>random_song(filename, tempo, tuning, num_measures)</b><p>
 <p>Description: Uses the random module to write song made of random notes to a file given the name of the song
 to write to, the desired tempo, and the desired tuning frequency, and the number of measures this song is. We
@@ -21,4 +21,4 @@ next iteration of the loop, to pick a new random index to try until a note type 
 (float) the base frequency to use for the note A4, and num_measures (int) the number of measure of song to write</p>
 <p>Return value: None (all output goes to a file)</P>
 
-#Change Notes
+

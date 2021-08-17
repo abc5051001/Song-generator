@@ -16,8 +16,8 @@ is less than or equal to the number of beats left in the measure) then:</p>
 ii. Select a random octave from 1 to 7 (we're ignoring the incomplete octaves 0 and 8)
 iii. join the note type, note, and octave together, and write this as a line in the output file</p>
 <p>c. If the note duration selected doesn't fit in the measure, throw away this note and try again in the
-next iteration of the loop, to pick a new random index to try until a note type that fits is selected.
-Parameters: filename (string) the name of the output file to write to, tempo (int) the BPM of the song, tuning
-(float) the base frequency to use for the note A4, and num_measures (int) the number of measure of song to write
-Return value: None (all output goes to a file)</P>
+next iteration of the loop, to pick a new random index to try until a note type that fits is selected.</p>
+<p>Parameters: filename (string) the name of the output file to write to, tempo (int) the BPM of the song, tuning
+(float) the base frequency to use for the note A4, and num_measures (int) the number of measure of song to write</p>
+<p>Return value: None (all output goes to a file)</P>
 

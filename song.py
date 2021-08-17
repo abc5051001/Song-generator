@@ -1,20 +1,4 @@
-#-------------------------------------------------------------------------------
-# Name: Shawn Lai
-# Project 5
-# Due Date: 11/26/2019
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-# violates the ethical guidelines set forth by professor and class syllabus.
-#-------------------------------------------------------------------------------
-# References: Zybooks, TA office hour.
-#-------------------------------------------------------------------------------
-# Comments and assumptions: Comments are included below to describe what the
-# variables are, and also to describe why I did them the way I did.
-#-------------------------------------------------------------------------------
-# NOTE: width of source code should be <=80 characters to be readable on-screen.
-#2345678901234567890123456789012345678901234567890123456789012345678901234567890
-# 10 20 30 40 50 60 70 80
-#-------------------------------------------------------------------------------
+
 #import the random module
 import random
 

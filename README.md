@@ -32,3 +32,9 @@ name of the original file "_changed" added before the extension ".song"</p>
 maps notes to other notes, it won't necessarily have every note in it, shift (integer) is how many half steps up or
 down the piano from the original note you should travel in order to find the replacement note in the changed file</p>
 <p>Return value: None (the changed song should be written to a new file)</p>
+
+<p><b>song_as_dict(filename)</b></p>
+<p>Description: Transforms a song from a file into a dictionary. The information it stores is the number of notes
+(separated by octaves) and note types that appear in the given song.</p>
+<p>Parameters: filename (string) the name of the song file to use</p>
+<p>Return value: A dictionary with four keys: "tempo", "tuning", "notes" and "types"</p>
